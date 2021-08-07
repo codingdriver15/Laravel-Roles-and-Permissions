@@ -1,0 +1,57 @@
+
+
+Wed Jul 21 22:58:06 2021
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.8.0-43-generic (#49~20.04.1-Ubuntu SMP Fri Feb 5 09:57:56 UTC 2021) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+User is not root!
+Hard disk list
+
+
+TestDisk exited normally.
+sudo: /etc/sudoers.d is world writable
+Using locale 'en_IN'.
+
+
+Wed Jul 21 22:58:07 2021
+Command line: TestDisk /debug
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.8.0-43-generic (#49~20.04.1-Ubuntu SMP Fri Feb 5 09:57:56 UTC 2021) x86_64
+Compiler: GCC 9.2
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+/dev/sda: LBA, LBA48, DCO support
+/dev/sda: size       1953525168 sectors
+/dev/sda: user_max   1953525168 sectors
+/dev/sda: dco        1953525168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Warning: can't get size for Disk /dev/loop10 - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - HGST HTS541010A9E680, S/N:JA1009C03E808P, FW:JA0OA710
+Disk /dev/loop0 - 229 MB / 219 MiB - 448512 sectors (RO), sector size=512
+Disk /dev/loop1 - 68 MB / 65 MiB - 133320 sectors (RO), sector size=512
+Disk /dev/loop2 - 67 MB / 64 MiB - 132648 sectors (RO), sector size=512
+Disk /dev/loop3 - 229 MB / 218 MiB - 448496 sectors (RO), sector size=512
+Disk /dev/loop4 - 33 MB / 32 MiB - 66120 sectors (RO), sector size=512
+Disk /dev/loop5 - 58 MB / 55 MiB - 113544 sectors (RO), sector size=512
+Disk /dev/loop6 - 58 MB / 55 MiB - 113560 sectors (RO), sector size=512
+Disk /dev/loop7 - 33 MB / 32 MiB - 66096 sectors (RO), sector size=512
+Disk /dev/loop8 - 53 MB / 50 MiB - 104360 sectors (RO), sector size=512
+Disk /dev/loop9 - 53 MB / 51 MiB - 104536 sectors (RO), sector size=512
+
+Partition table type (auto): EFI GPT
+Disk /dev/sda - 1000 GB / 931 GiB - HGST HTS541010A9E680
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=256 sector=63
+check_part_i386 1 type EE: no test
+ 1 P EFI GPT                  0   0  2 121601  80 63 1953525167
+SIGINT detected! TestDisk has been killed.
